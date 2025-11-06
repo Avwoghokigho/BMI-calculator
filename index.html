@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <main>
+        <h2>BMI Calculator</h2>
+        <div class="input-field">
+            <input type="number" id="weight" placeholder="input weight"><br>
+            <select name="select" id="weight-unit">
+                <option value="">****Select a weight unit****</option>
+                <option value="lb">pounds(lb)</option>
+                <option value="kg">Kilogrammes(Kg)</option>
+            </select><br>
+            <input type="number" id="height" placeholder="input height"><br>
+            <select name="select" id="height-unit">
+                <option value="">****Select a height unit****</option>
+                <option value="in">inches(in)</option>
+                <option value="cm">centimeters(cm)</option>
+            </select><br>
+            <button id="btn">Check Index</button>
+        </div>
+        <!-- yshd -->
+        <div class="display hide">
+            <h3>Height : <span id="dis-height">00</span>cm</h3>
+            <h3>Weight : <span id="dis-weight">00</span>kg</h3>
+            <h3>Body Mass Index(BMI) : <span id="dis-bmi">00</span> <span id="remarks">(basic)</span></h3>
+            <a href="wa.me/2348027765107">Contact a Health Counselor</a><br>
+            <button id="end">hide</button>
+        </div>
+    </main>
+    <footer>
+        <h3>Made by <a href="#">Okiemute</a>.&copy; <span id="year">2025</span> </h3>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

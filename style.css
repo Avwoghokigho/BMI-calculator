@@ -1,0 +1,97 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: teal;
+}
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: monospace;
+    border-bottom: 1px solid grey;
+}
+footer{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .input-field{
+    width: 350px;
+    background-color: darkslategrey;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 12px;
+    padding: 30px 5px;
+}
+main .display{
+    width: 350px;
+    height: 175px;
+    border: 1px solid grey;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: -175px;
+}
+input,select{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(188, 233, 240);
+}
+.hide{
+    display: none;
+    transform: scale(0.000001);
+}
+.view{
+    display: block;
+    transform: scale(1);
+}
+.normal{
+    background: linear-gradient(34deg,green,teal,green);
+    color: black;
+}
+.under{
+    background: linear-gradient(34deg,grey,teal,grey);
+    color: black;
+}
+.over{
+    background: linear-gradient(34deg,orange,teal,orange);
+    color: black;
+}
+.obese{
+    background: linear-gradient(34deg,red,teal,red);
+    color: black;
+}
+.null{
+    background: linear-gradient(34deg,white,teal,white);
+    color: black;
+}
